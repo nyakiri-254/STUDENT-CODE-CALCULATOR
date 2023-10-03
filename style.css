@@ -1,0 +1,80 @@
+/* Reset some default margin and padding */
+body, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: paleturquoise;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #A0E7E5;
+}
+
+/* Style the left box */
+.left-box {
+    background-color:#189AB4;
+    height: 300px;
+    width: 180px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.left-box h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.p-g-t h2 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Style the right box */
+.right-box {
+    background-color:#D4F1F4;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.right-box input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 95%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.right-box button {
+    background-color:#A0E7E5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.right-box button:hover {
+    background-color:#05445E;
+}
+
+/* Style the result div */
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
